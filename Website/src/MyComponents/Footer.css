@@ -1,0 +1,113 @@
+/* .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+  } */
+
+
+/* .footer{
+  text-align: center;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 100px;
+  background-color: azure;
+  display: flex;
+} */
+  /* .main-footer {
+    color: black;
+    padding-top: 1rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  } */
+
+  /* .h4{
+    font-size: 20px;
+    display: inline-block;
+    
+  } */
+
+  /* .list-unstyled{
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+   
+   
+  } */
+
+  /* .col{
+    justify-content: center;
+    align-items: center;
+    padding-top: 50rem;
+    
+    
+  } */
+/* .row{
+  display: flex;
+  
+} */
+
+/* .col1{
+ margin-top: 20890px;
+ padding-left: 2000px;
+ 
+} */
+
+/* .list{
+  display: flex;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  display: flex;
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.row>* {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  display: contents;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.column {
+  float: right;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  display:inline;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

@@ -1,0 +1,52 @@
+.phone{
+    margin: 40%;
+    width: 100px;
+    height: 50px;
+}
+
+.row{
+    float: left;
+    padding-left: 5rem;
+}
+
+.contact_form_title{
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    border-radius: 10px;
+    border-color: black;
+    font-size: 30px;
+    
+}
+
+.form-control{
+    min-width:400px; 
+    max-width:90%;
+    min-height:20px;
+    height:10%;
+    width:10%;
+    margin-bottom: 20px;
+}
+.btn{
+    padding-left: 400px; 
+	padding-right: 200px; 
+	padding-top: 400px; 
+	padding-bottom: 900px; 
+}
+
+.contact_info_content{
+    padding-left: 5rem;
+    padding-right: 15rem;
+}
+
+.phone{
+    padding-right: 5rem;
+    margin: 40px;
+}
+
+.row{
+    display: block;
+}
+
+.form-control{
+    padding-left: 20rem;
+}
