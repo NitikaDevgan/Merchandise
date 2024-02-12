@@ -9,7 +9,8 @@ and usability. And also, there will be less time required for this process. Auct
 buyers and sellers believe they will get a good deal buying or selling assets.
 
 Features:
-				• User Authentication
+				
+                                • User Authentication
 				• Email Verification
 				• 24*7 bidding
 				• Live countdown timer
