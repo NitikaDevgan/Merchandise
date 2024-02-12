@@ -1,5 +1,6 @@
 # Merchandise
 Objective of the project
+
 The main objective of this project is that there are many users around the world who want to sell or buy
 any type of things under their budget so this will provide a platform for them so that their life can
 become easy. The system is designed to allow users to set up their products for auctions and bidders to
